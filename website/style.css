@@ -1718,6 +1718,7 @@ li.has-child > a::after {
     text-align: center;
     transform: scale(1);
     transition: all 1s ease 0s;
+    height: 260px;
 }
 
 .single-service h5 {
@@ -1728,13 +1729,10 @@ li.has-child > a::after {
     transform: scale(1.05);
 }
 
-.single-service > i {
-    color: #00BDDF;
-    display: inline-block;
-    font-size: 46px;
-    margin: 25px 0 15px;
-    padding: 11px;
+.single-service > img {
+    margin: 20px 0;
     transition: all 0.3s ease 0s;
+    height: 60px;
 }
 
 .single-service > p {
