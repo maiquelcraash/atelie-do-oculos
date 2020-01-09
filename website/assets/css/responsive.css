@@ -11,155 +11,643 @@ Note: This file includes styles for normal desktop, tablet, large mobile and sma
 /* =================================================
 Normal desktop :992px. =============================*/
 @media (min-width: 992px) and (max-width: 1169px) {
-.main-menu > li > a {padding: 10px;}
-.slide-content h1 {
-  font-size: 38px;
-  line-height: 42px;
-  margin-bottom: 10px;
+    .main-menu > li > a {
+        padding: 10px;
+    }
+
+    .slide-content h1 {
+        font-size: 38px;
+        line-height: 42px;
+        margin-bottom: 10px;
+    }
+
+    .slide-content h3 {
+        font-size: 20px;
+        line-height: 28px;
+        margin-bottom: 5px;
+    }
+
+    .slide-content p {
+        font-size: 16px;
+        margin-bottom: 10px;
+        display: block;
+    }
+
+    .slide-content .btn {
+        font-size: 14px;
+        margin: 0 5px;
+        padding: 5px 12px;
+    }
+
+    .slide-content .btn-primary, .slide-content .btn-secondary {
+        height: 36px;
+        line-height: 36px;
+        margin: 10px 5px;
+        padding: 0 20px;
+    }
+
+    #slider-container .owl-controls.clickable {
+        bottom: 10px;
+    }
+
+    #slider-container .main-slider .owl-controls.clickable {
+        bottom: 40px;
+        margin-top: 0;
+    }
+
+    .slide-content {
+        margin-top: -45px;
+    }
+
+    .main-slider .owl-controls .owl-page span {
+        width: 8px;
+        height: 8px;
+        padding: 5px;
+    }
+
+    .header-navigation {
+        position: relative !important;
+    }
+
+    .slider-content {
+        padding-top: 0 !important;
+    }
+
+    .doctor-info > p {
+        display: none;
+    }
+
+    .btn.btn-big {
+        font-size: 16px;
+        padding: 15px;
+    }
+
+    .tab-content {
+        padding: 10px 0 10px 10px;
+    }
+
+    .comments-list .comment-box {
+        width: 81%;
+    }
+
+    .reply-list {
+        padding-left: 130px;
+    }
+
+    .reply-list li::before {
+        left: -80px;
+        width: 80px;
+    }
 }
-.slide-content h3 {
-  font-size: 20px;
-  line-height: 28px;
-  margin-bottom: 5px;
-}
-.slide-content p {font-size: 16px;  margin-bottom: 10px;display:block;}
-.slide-content .btn {font-size: 14px;  margin: 0 5px;padding: 5px 12px;}
-.slide-content .btn-primary, .slide-content .btn-secondary {height: 36px;line-height: 36px;margin: 10px 5px;padding: 0 20px;}
-#slider-container .owl-controls.clickable {bottom: 10px;}
-#slider-container .main-slider .owl-controls.clickable {bottom: 40px;margin-top:0;}
-.slide-content {margin-top: -45px;}
-.main-slider .owl-controls .owl-page span {width:8px;height:8px;padding:5px;}
-.header-navigation {position: relative !important;}
-.slider-content {padding-top:0 !important;}
-.doctor-info > p{display:none;}
-.btn.btn-big {font-size: 16px;padding: 15px;}
-.tab-content {padding: 10px 0 10px 10px;}
-.comments-list .comment-box {width: 81%;}
-.reply-list {padding-left: 130px;}
-.reply-list li::before {left: -80px;width: 80px;}
-}
+
 /*=================================================
  Tablet desktop :768px.============================ */
-@media (min-width: 768px) and (max-width: 991px) {	
-.header-navigation {background: #00488E none repeat scroll 0 0;	position: relative;}
-.slider-content {padding-top: 0;}
-.slide-content h1 {font-size: 24px;line-height: 28px;margin-bottom: 3px;}
-.slide-content h2 {font-size: 22px; margin-bottom: 5px;line-height:26px;}
-.slide-content h3 {font-size: 16px;line-height: 22px;margin-bottom: 5px;}
-.slide-content p {display:none;}
-.slide-content {margin-top: -35px;}
-#slider-container .owl-controls.clickable {bottom: 10px;}
-#slider-container .main-slider .owl-controls.clickable {bottom: 30px;  position: absolute;  width: 100%;}
-.main-slider .owl-controls .owl-page span {width:6px;height:6px;padding:4px;}
-#slider-container .main-slider.slide-2 .owl-controls.clickable {bottom: 15px;}
-.btn.btn-big {font-size: 14px;padding: 10px;}
-.banner-content {padding-top:0;}
-.doctor-info {padding: 15px 12px;}
-.doctor-info > p{display:none;}
-.slide-content .btn {font-size: 13px;font-weight: 600;margin: 5px 5px 0;padding: 5px 12px;}
-.slide-content .btn-primary, .slide-content .btn-secondary{height: 36px;line-height: 36px;margin: 10px 5px;padding: 0 20px;}
-.slide-content .btn-lg, .slide-content .btn-group-lg > .btn {font-size: 14px;font-weight: 600;padding: 5px 15px;}
-.callto-area{text-align:center;}
-.callto-area .btn { float: none;}
-.comments-list .comment-box {width: 76%;}
-.reply-list {padding-left: 130px;}
-.reply-list li::before {left: -80px;width: 80px;}
+@media (min-width: 768px) and (max-width: 991px) {
+    .header-navigation {
+        background: #00488E none repeat scroll 0 0;
+        position: relative;
+    }
+
+    .slider-content {
+        padding-top: 0;
+    }
+
+    .slide-content h1 {
+        font-size: 24px;
+        line-height: 28px;
+        margin-bottom: 3px;
+    }
+
+    .slide-content h2 {
+        font-size: 22px;
+        margin-bottom: 5px;
+        line-height: 26px;
+    }
+
+    .slide-content h3 {
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 5px;
+    }
+
+    .slide-content p {
+        display: none;
+    }
+
+    .slide-content {
+        margin-top: -35px;
+    }
+
+    #slider-container .owl-controls.clickable {
+        bottom: 10px;
+    }
+
+    #slider-container .main-slider .owl-controls.clickable {
+        bottom: 30px;
+        position: absolute;
+        width: 100%;
+    }
+
+    .main-slider .owl-controls .owl-page span {
+        width: 6px;
+        height: 6px;
+        padding: 4px;
+    }
+
+    #slider-container .main-slider.slide-2 .owl-controls.clickable {
+        bottom: 15px;
+    }
+
+    .btn.btn-big {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .banner-content {
+        padding-top: 0;
+    }
+
+    .doctor-info {
+        padding: 15px 12px;
+    }
+
+    .doctor-info > p {
+        display: none;
+    }
+
+    .slide-content .btn {
+        font-size: 13px;
+        font-weight: 600;
+        margin: 5px 5px 0;
+        padding: 5px 12px;
+    }
+
+    .slide-content .btn-primary, .slide-content .btn-secondary {
+        height: 36px;
+        line-height: 36px;
+        margin: 10px 5px;
+        padding: 0 20px;
+    }
+
+    .slide-content .btn-lg, .slide-content .btn-group-lg > .btn {
+        font-size: 14px;
+        font-weight: 600;
+        padding: 5px 15px;
+    }
+
+    .callto-area {
+        text-align: center;
+    }
+
+    .callto-area .btn {
+        float: none;
+    }
+
+    .comments-list .comment-box {
+        width: 76%;
+    }
+
+    .reply-list {
+        padding-left: 130px;
+    }
+
+    .reply-list li::before {
+        left: -80px;
+        width: 80px;
+    }
 }
+
 /* ==================================================================================
 Small Mobile :320px. ================================================================*/
 @media (max-width: 767px) {
-.container {width:300px}
-.top-left-info{text-align:center;}
-.list-menu {text-align: center;  float:none !important;}
-.list-menu > li {margin-left: 16px;}
-.list-menu > li {display: inline-block;  float: none;}
-.list-menu > li::after {display: none;}
-.mobile-menu-area {width:270px}
-.header-top-bar p {font-size: 12px;}
-.header-navigation {background: #00488E none repeat scroll 0 0;	position: relative;}
-.slider-content {padding-top: 0;margin-top:0;}
-.slide-content {margin-top: 0;}
-.slide-content h3 {font-size: 14px;font-weight: 700; line-height: 20px;margin-bottom: 8px;}
-.single-slide img {min-height: 135px;}
-.slide-content p {display: none;}
-.slide-content .btn {  margin: 0 5px 0;}
-.slide-content h1 {  font-size: 20px !important;  line-height: 24px;margin-bottom: 5px !important;}
-.widget-area {margin-top: 60px;}
-#slider-container .owl-controls.clickable {display: none !important;}
-.banner-parallax {top:0 !important;}
-.banner-content {padding-top:0;}
-.page-title {margin-bottom: 5px;}
-.client {padding: 15px;}
-.client::before {border-bottom: 14px solid transparent; border-right: 20px solid #fff;border-top: 14px solid transparent;margin-top: -4px;right: 32px;top: 100%;  transform: rotate(-90deg);}
-.client-content {padding-left: 0;}
-.client-info {margin-bottom: 20px;}
-.client-say > p {margin-bottom: 5px;}
-.service-box .service-icon {float: none;margin: 20px auto;}
-.service-box .service-detail {padding-left: 0;text-align: center;}
-.single-brand {line-height: 60px;padding: 10px;}
-.copyright-text {text-align: center;}
-.footer-widget .widget-title {margin-bottom: 20px;}
-.footer-social-links ul.social-links {text-align: center;}
-#patient-quotes .owl-controls .owl-next {right:0;}
-#patient-quotes .owl-controls .owl-prev {left: 0;}
-.doctor-info > p{display:none;}
-.half-field, .half-field-last {width: 100%;}
-.plan-details .btn-tra {font-size: 16px;font-weight: 700;padding: 4px 20px;margin: 20px 5px 0; }
-.slide-content .btn {margin: 0 5px;padding: 5px 10px;}
-.slide-content .btn-primary, .slide-content .btn-secondary{height:30px; line-height:30px;margin: 2px 5px 4px;padding: 0 12px;}
-.slide-content .btn-lg, .slide-content .btn-group-lg > .btn {font-size: 12px;font-weight: 600;padding: 3px 15px;}
-.slide-content .btn-stand {font-size: 12px !important;font-weight: 500;padding: 4px 10px;}
-ul.pagination > li > a {padding: 7px 14px;}
-.sticky-logo img {height: auto;}
-.search-wrap {width: 260px;}
-.callto-area .btn { float: none;}
-.comments-list .comment-avatar {border: 2px solid #fff;height: 50px;width: 50px;}
-.comments-list .comment-box {width: 77%;}
-.comment-box .comment-head {padding: 12px 6px;}
-.comments-list::before {left: 25px;width: 1px;}
-.reply-list li::before{display:none;}
-.reply-list .comment-avatar {height: 40px;width: 40px;}
-.reply-list {padding-left: 30px;}
-.reply-list .comment-box {width: 78%;}
-.comment-box .comment-name {display: block;float: none;}
-.footer-bottom-area .cards img {display: block;margin: auto;}
+    .container {
+        width: 300px
+    }
+
+    .top-left-info {
+        text-align: center;
+    }
+
+    .list-menu {
+        text-align: center;
+        float: none !important;
+    }
+
+    .list-menu > li {
+        margin-left: 16px;
+    }
+
+    .list-menu > li {
+        display: inline-block;
+        float: none;
+    }
+
+    .list-menu > li::after {
+        display: none;
+    }
+
+    .mobile-menu-area {
+        width: 320px
+    }
+
+    .header-top-bar p {
+        font-size: 12px;
+    }
+
+    .header-navigation {
+        background: #00488E none repeat scroll 0 0;
+        position: relative;
+    }
+
+    .slider-content {
+        padding-top: 0;
+        margin-top: 0;
+    }
+
+    .slide-content {
+        margin-top: 0;
+    }
+
+    .slide-content h3 {
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 20px;
+        margin-bottom: 8px;
+    }
+
+    .single-slide img {
+        min-height: 135px;
+    }
+
+    .slide-content p {
+        display: none;
+    }
+
+    .slide-content .btn {
+        margin: 0 5px 0;
+    }
+
+    .slide-content h1 {
+        font-size: 20px !important;
+        line-height: 24px;
+        margin-bottom: 5px !important;
+    }
+
+    .widget-area {
+        margin-top: 60px;
+    }
+
+    #slider-container .owl-controls.clickable {
+        display: none !important;
+    }
+
+    .banner-parallax {
+        top: 0 !important;
+    }
+
+    .banner-content {
+        padding-top: 0;
+    }
+
+    .page-title {
+        margin-bottom: 5px;
+    }
+
+    .client {
+        padding: 15px;
+    }
+
+    .client::before {
+        border-bottom: 14px solid transparent;
+        border-right: 20px solid #fff;
+        border-top: 14px solid transparent;
+        margin-top: -4px;
+        right: 32px;
+        top: 100%;
+        transform: rotate(-90deg);
+    }
+
+    .client-content {
+        padding-left: 0;
+    }
+
+    .client-info {
+        margin-bottom: 20px;
+    }
+
+    .client-say > p {
+        margin-bottom: 5px;
+    }
+
+    .service-box .service-icon {
+        float: none;
+        margin: 20px auto;
+    }
+
+    .service-box .service-detail {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .single-brand {
+        line-height: 60px;
+        padding: 10px;
+    }
+
+    .copyright-text {
+        text-align: center;
+    }
+
+    .footer-widget .widget-title {
+        margin-bottom: 20px;
+    }
+
+    .footer-social-links ul.social-links {
+        text-align: center;
+    }
+
+    #patient-quotes .owl-controls .owl-next {
+        right: 0;
+    }
+
+    #patient-quotes .owl-controls .owl-prev {
+        left: 0;
+    }
+
+    .doctor-info > p {
+        display: none;
+    }
+
+    .half-field, .half-field-last {
+        width: 100%;
+    }
+
+    .plan-details .btn-tra {
+        font-size: 16px;
+        font-weight: 700;
+        padding: 4px 20px;
+        margin: 20px 5px 0;
+    }
+
+    .slide-content .btn {
+        margin: 0 5px;
+        padding: 5px 10px;
+    }
+
+    .slide-content .btn-primary, .slide-content .btn-secondary {
+        height: 30px;
+        line-height: 30px;
+        margin: 2px 5px 4px;
+        padding: 0 12px;
+    }
+
+    .slide-content .btn-lg, .slide-content .btn-group-lg > .btn {
+        font-size: 12px;
+        font-weight: 600;
+        padding: 3px 15px;
+    }
+
+    .slide-content .btn-stand {
+        font-size: 12px !important;
+        font-weight: 500;
+        padding: 4px 10px;
+    }
+
+    ul.pagination > li > a {
+        padding: 7px 14px;
+    }
+
+    .sticky-logo img {
+        height: auto;
+        max-height: 50px;
+    }
+
+    .about-area {
+        padding: 40px 0;
+    }
+
+    .search-wrap {
+        width: 260px;
+    }
+
+    .callto-area .btn {
+        float: none;
+    }
+
+    .comments-list .comment-avatar {
+        border: 2px solid #fff;
+        height: 50px;
+        width: 50px;
+    }
+
+    .comments-list .comment-box {
+        width: 77%;
+    }
+
+    .comment-box .comment-head {
+        padding: 12px 6px;
+    }
+
+    .comments-list::before {
+        left: 25px;
+        width: 1px;
+    }
+
+    .reply-list li::before {
+        display: none;
+    }
+
+    .reply-list .comment-avatar {
+        height: 40px;
+        width: 40px;
+    }
+
+    .reply-list {
+        padding-left: 30px;
+    }
+
+    .reply-list .comment-box {
+        width: 78%;
+    }
+
+    .comment-box .comment-name {
+        display: block;
+        float: none;
+    }
+
+    .footer-bottom-area .cards img {
+        display: block;
+        margin: auto;
+    }
 }
+
 /* Large Mobile :480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-.container {width:450px}
-.mobile-menu-area {width:420px}
-.header-navigation {background: #00488E none repeat scroll 0 0;	position: relative;}
-.slider-content {padding-top: 0;}
-.slide-content h3 {font-size: 20px; margin-bottom: 10px;}
-.slide-content h2 {font-size: 22px; margin-bottom: 10px;line-height:28px;}
-.slide-content h1 {font-size: 26px;line-height: 30px;}
-.slide-content p {display: none;}
-.slide-content .btn {margin: 0 5px 0;}
-#slider-container .owl-controls.clickable {  display: none !important;}
-.banner-parallax{top:0 !important;}
-.banner-content {padding-top:0;}
-.page-title {margin-bottom: 10px;}
-.single-brand {line-height: 70px;  padding: 5px;}
-.slide-content .btn {margin: 0 5px;  padding: 5px 10px;}
-.slide-content .btn-primary, .slide-content .btn-secondary{height: 32px;line-height: 32px;padding: 0 15px;}
-.slide-content .btn-lg, .slide-content .btn-group-lg > .btn {font-size: 14px;font-weight: 600;padding: 5px 15px;}
-.slide-content .btn-stand {font-size: 12px;font-weight: 500;padding: 4px 10px;}
-.widget-area {margin-top: 60px;}
-#special-today {background: #eadece;}
-.plan-details .btn-tra {font-size: 16px;font-weight: 700;padding: 4px 20px;margin: 20px 5px 0; }
-#patient-quotes .owl-controls .owl-next {right: 20%;}
-#patient-quotes .owl-controls .owl-prev {left: 20%;}
-.doctor-info > p{display:none;}
-.doctors-inner .arrow-prev {left: -50px;}
-.doctors-inner .arrow-next {right: -50px;}
-.comments-list .comment-avatar {border: 4px solid #fff;height: 70px;width: 70px;}
-.comments-list .comment-box {width: 77%;}
-.comments-list::before {left: 35px;width: 1px;}
-.comment-box .comment-head {padding: 12px 6px;}
-.reply-list li::before {height: 1px;left: -56px;top: 29px;width: 60px;}
-.reply-list .comment-avatar {height: 60px;width: 60px;}
-.reply-list {padding-left: 92px;}
-.comments-list .comment-box {width: 78%;}
-.comment-box .comment-name {display: block;float: none;}
-.reply-list .comment-box {width: 75%;}
+    .container {
+        width: 450px
+    }
+
+    .mobile-menu-area {
+        width: 420px
+    }
+
+    .header-navigation {
+        background: #00488E none repeat scroll 0 0;
+        position: relative;
+    }
+
+    .slider-content {
+        padding-top: 0;
+    }
+
+    .slide-content h3 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .slide-content h2 {
+        font-size: 22px;
+        margin-bottom: 10px;
+        line-height: 28px;
+    }
+
+    .slide-content h1 {
+        font-size: 26px;
+        line-height: 30px;
+    }
+
+    .slide-content p {
+        display: none;
+    }
+
+    .slide-content .btn {
+        margin: 0 5px 0;
+    }
+
+    #slider-container .owl-controls.clickable {
+        display: none !important;
+    }
+
+    .banner-parallax {
+        top: 0 !important;
+    }
+
+    .banner-content {
+        padding-top: 0;
+    }
+
+    .page-title {
+        margin-bottom: 10px;
+    }
+
+    .single-brand {
+        line-height: 70px;
+        padding: 5px;
+    }
+
+    .slide-content .btn {
+        margin: 0 5px;
+        padding: 5px 10px;
+    }
+
+    .slide-content .btn-primary, .slide-content .btn-secondary {
+        height: 32px;
+        line-height: 32px;
+        padding: 0 15px;
+    }
+
+    .slide-content .btn-lg, .slide-content .btn-group-lg > .btn {
+        font-size: 14px;
+        font-weight: 600;
+        padding: 5px 15px;
+    }
+
+    .slide-content .btn-stand {
+        font-size: 12px;
+        font-weight: 500;
+        padding: 4px 10px;
+    }
+
+    .widget-area {
+        margin-top: 60px;
+    }
+
+    #special-today {
+        background: #eadece;
+    }
+
+    .plan-details .btn-tra {
+        font-size: 16px;
+        font-weight: 700;
+        padding: 4px 20px;
+        margin: 20px 5px 0;
+    }
+
+    #patient-quotes .owl-controls .owl-next {
+        right: 20%;
+    }
+
+    #patient-quotes .owl-controls .owl-prev {
+        left: 20%;
+    }
+
+    .doctor-info > p {
+        display: none;
+    }
+
+    .doctors-inner .arrow-prev {
+        left: -50px;
+    }
+
+    .doctors-inner .arrow-next {
+        right: -50px;
+    }
+
+    .comments-list .comment-avatar {
+        border: 4px solid #fff;
+        height: 70px;
+        width: 70px;
+    }
+
+    .comments-list .comment-box {
+        width: 77%;
+    }
+
+    .comments-list::before {
+        left: 35px;
+        width: 1px;
+    }
+
+    .comment-box .comment-head {
+        padding: 12px 6px;
+    }
+
+    .reply-list li::before {
+        height: 1px;
+        left: -56px;
+        top: 29px;
+        width: 60px;
+    }
+
+    .reply-list .comment-avatar {
+        height: 60px;
+        width: 60px;
+    }
+
+    .reply-list {
+        padding-left: 92px;
+    }
+
+    .comments-list .comment-box {
+        width: 78%;
+    }
+
+    .comment-box .comment-name {
+        display: block;
+        float: none;
+    }
+
+    .reply-list .comment-box {
+        width: 75%;
+    }
 }
