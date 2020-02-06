@@ -479,6 +479,10 @@ Small Mobile :320px. ===========================================================
         display: block;
         margin: auto;
     }
+
+    .section-title > h2::before {
+        top: 60px
+    }
 }
 
 /* Large Mobile :480px. */

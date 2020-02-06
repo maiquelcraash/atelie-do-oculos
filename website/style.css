@@ -1756,6 +1756,10 @@ li.has-child > a::after {
     margin-bottom: 0;
 }
 
+.callto-area {
+    background-color: #00488E;
+}
+
 .callto-area .btn {
     border: 1px solid #ffffff;
     color: #ffffff;
@@ -3605,6 +3609,10 @@ ul.social-links.social-dark > li > a {
         -o-transform: scaleY(0.05) translateX(-5px);
         transform: scaleY(0.05) translateX(-5px);
     }
+}
+
+.google-map-area .container{
+    width: 100%;
 }
 
 /*========================================
