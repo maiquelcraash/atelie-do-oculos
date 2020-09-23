@@ -247,7 +247,8 @@ Small Mobile :320px. ===========================================================
     }
 
     .mobile-menu-area {
-        width: 320px
+        width: 320px;
+        display: none;
     }
 
     .header-top-bar p {
@@ -492,7 +493,8 @@ Small Mobile :320px. ===========================================================
     }
 
     .mobile-menu-area {
-        width: 420px
+        width: 420px;
+        display: none;
     }
 
     .header-navigation {
