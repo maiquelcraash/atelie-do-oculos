@@ -21,31 +21,22 @@
     <link rel="stylesheet" href="assets/css/responsive.css">
     <!-- User style -->
     <link rel="stylesheet" href="assets/css/custom.css">
-    <!-- Modernizr js -->
-    <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
-    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+    <!-- Font awesome style -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="preload" rel="stylesheet">
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NGZ82ZDF');</script>
+    <!-- End Google Tag Manager -->
 </head>
 <body>
+
 <!--[if lt IE 8]>
 <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
     your browser</a> to improve your experience.</p>
 <![endif]-->
-<!-- Start Preloader -->
-<div class="preloader-wrap">
-    <div class="medica-loader">
-        <div class="loader-inner-1"></div>
-        <div class="loader-inner-2"></div>
-        <div class="loader-inner-3"></div>
-        <div class="loader-inner-4"></div>
-        <div class="loader-inner-5"></div>
-        <div class="loader-inner-6"></div>
-        <div class="loader-inner-7"></div>
-        <div class="loader-inner-8"></div>
-        <div class="loader-inner-9"></div>
-        <div class="loader-inner-10"></div>
-    </div>
-</div>
-<!-- End Preloader  -->
 <!-- Start Header -->
 <header id="header-area">
     <!-- Start Header Top Area -->
@@ -67,7 +58,7 @@
                             <ul class="list-menu pull-right">
                                 <li><i class="fa fa-phone" aria-hidden="true"></i>51 98271.3233</li>
                                 <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i>
-                                    contato@ateliêdoóculos.com.br</a></li>
+                                    ateliedooculos@gmail.com</a></li>
                             </ul>
                         </div>
                         <!-- End Header Right Info -->
@@ -313,10 +304,6 @@
             </div>
         </div>
     </div>
-    <section>
-        <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-        <div class="elfsight-app-8cb8c1cb-953d-47a5-90d2-f62e8a396997"></div>
-    </section>
 </section>
 <!-- End Service Area -->
 <!-- Start call to Area -->
@@ -405,7 +392,7 @@
                                 - Centro - Lajeado-RS
                             </li>
                             <li><i class="icofont icofont-ui-touch-phone"></i> 51 98271-3233, 51 98298-3654</li>
-                            <li><i class="icofont icofont-envelope"></i>contato@ateliêdoóculos.com.br</li>
+                            <li><i class="icofont icofont-envelope"></i>ateliedooculos@gmail.com</li>
                         </ul>
                     </div>
                     <!-- End Footer widget -->
@@ -420,7 +407,7 @@
                                        href="https://www.google.com/maps/place/ateli%C3%AAdo%C3%B3culos/@-29.4627214,-51.9653624,18.44z/data=!4m5!3m4!1s0x0:0xd6df384b88c0e789!8m2!3d-29.4620313!4d-51.9655817">
                                     <div class="fullwide-map">
                                         <div id="googleMap" style="width:100%;height:450px;"></div>
-                                        <div style="width: 720px; height: 450px; top:0; position: absolute;"></div>
+                                        <div style="width: 100%; height: 450px; top:0; position: absolute;"></div>
                                     </div>
                                     </a>
                                     <!-- End Map -->
@@ -451,6 +438,16 @@
     <!-- End Footer Bottom -->
 </footer>
 <!-- End Footer Area -->
+
+<!-- Start Whatsapp float Widget -->
+<div id="sy-whatshelp">
+    <a class="sywh-open-services " data-html="true" data-placement="left" href="https://wa.me/555182983654" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+</div>
+<!-- End Whatsapp float Widget -->
+
+
 <!-- All JS Here -->
 <!-- jquery latest version -->
 <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
@@ -463,15 +460,18 @@
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8VKL5MI8s2d_aClnXVHBeAJsQPOLHU30&callback=initMap" async
         defer></script>
 <script>
-    function initMap() {
-        var mapOptions = {
+    async function initMap() {
+        const { Map } = await google.maps.importLibrary("maps");
+
+        let mapOptions = {
             zoom: 17,
             scrollwheel: false,
             center: new google.maps.LatLng(-29.462111, -51.965740)
         };
-        var map = new google.maps.Map(document.getElementById('googleMap'),
+        let map = new Map(document.getElementById('googleMap'),
             mapOptions);
-        var marker = new google.maps.Marker({
+
+        let marker = new google.maps.Marker({
             position: map.getCenter(),
             animation: google.maps.Animation.BOUNCE,
             icon: 'assets/img/contact/marker.png',
@@ -481,5 +481,10 @@
         });
     }
 </script>
+
+<!-- Google Tag Manager (noscript)-->
+<noscript><iframe height="0"
+                  src="https://www.googletagmanager.com/ns.html?id=GTM-NGZ82ZDF" style="display:none;visibility:hidden" width="0"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 </body>
 </html>
